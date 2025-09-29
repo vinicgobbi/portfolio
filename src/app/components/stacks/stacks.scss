@@ -1,0 +1,7 @@
+#profile-stacks-list i {
+  transition: transform 0.2s ease-in-out;
+}
+
+#profile-stacks-list i:hover {
+  transform: scale(1.15);
+}
