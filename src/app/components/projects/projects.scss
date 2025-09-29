@@ -1,0 +1,53 @@
+/* --- Seção de Projetos --- */
+
+/* Fundo do Card (para combinar com o background geral) */
+.card {
+  background-color: #212529; /* Cor de fundo do seu tema, um cinza-chumbo */
+  border-color: #343a40; /* Borda um pouco mais clara para destacar sutilmente */
+  color: #f8f9fa; /* Cor do texto dentro do card */
+}
+
+/* Título do Card */
+.card-title {
+  color: #ffffff; /* Título em branco puro para se destacar */
+}
+
+/* Descrição do Card */
+.card-text {
+  color: #adb5bd; /* Texto da descrição em cinza claro para legibilidade */
+}
+
+/* Rodapé do Card (para remover a borda superior e combinar com o fundo) */
+.card-footer {
+  background-color: transparent; /* Fundo transparente para combinar com o corpo do card */
+  border-top: 1px solid #343a40 !important; /* Borda superior sutil */
+}
+
+/* Badge (Angular) */
+.badge.bg-danger { /* Use o seletor mais específico se quiser */
+  background-color: #dc3545 !important; /* Cor vermelha do Angular padrão */
+  color: #fff !important; /* Texto branco */
+  font-size: 0.8em; /* Ajusta o tamanho da fonte */
+  padding: 0.4em 0.6em; /* Ajusta o padding */
+}
+
+/* Botão "Código" (Outline Dark) */
+.btn-outline-dark {
+  color: #adb5bd; /* Cor do texto do botão */
+  border-color: #495057; /* Cor da borda */
+}
+.btn-outline-dark:hover {
+  background-color: #495057; /* Fundo no hover */
+  color: #fff; /* Texto no hover */
+}
+
+/* Botão "Demo" (Primary) */
+.btn-primary {
+  background-color: #0d6efd; /* Azul primário do Bootstrap */
+  border-color: #0d6efd; /* Borda azul */
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7; /* Azul mais escuro no hover */
+  border-color: #0a58ca;
+}
