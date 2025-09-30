@@ -34,7 +34,18 @@
     ],
     "links": {
       "github": "https://github.com/vinicgobbi/vinicgobbi.github.io",
-	  "demo": "https://vinicgobbi.github.io"
+	    "demo": "https://vinicgobbi.github.io"
+    }
+  },
+  {
+    "titulo": "Vini Bot",
+    "descricao": "Um bot Feito em Python para por em praticas os estudos do 1º semestre do curso de Ciência da Computação",
+    "imagem": "./assets/vini-bot.png",
+    "badges": [
+      "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+    ],
+    "links": {
+      "github": "https://github.com/vinicgobbi/vinicgobbi.github.io"
     }
   }
 ]
