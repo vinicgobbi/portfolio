@@ -1,0 +1,72 @@
+
+html {
+  scroll-behavior: smooth;
+}
+/* Efeito de hover para os links da navbar */
+.navbar .nav-link {
+  position: relative; /* Necessário para o pseudo-elemento ::after */
+  transition: color 0.3s ease;
+}
+
+/* Cria a linha de underline escondida */
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0d6efd; /* Cor primária do Bootstrap, pode alterar */
+  transition: width 0.3s ease;
+}
+
+/* Ao passar o mouse, a linha cresce para 100% */
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Opcional: Mudar a cor do texto no hover */
+.navbar .nav-link:hover {
+  color: #fff; /* Deixa o texto mais branco no hover */
+}
+
+.navbar-custom {
+  /* Cor de fundo com transparência */
+  background-color: rgba(33, 37, 41, 0.7); /* Cor escura com 70% de opacidade */
+
+  /* O efeito de "vidro fosco" */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com Safari */
+
+  /* Primeiro, definimos uma borda transparente como base */
+  border-bottom: 1px solid transparent;
+
+  /* Agora, a 'mágica': pintamos essa borda com um gradiente */
+  border-image-source: linear-gradient(to right, 
+    rgba(255, 255, 255, 0),    /* 1. Começa transparente na esquerda */
+    rgba(255, 255, 255, 0.2), /* 2. Atinge uma cor sutil no centro */
+    rgba(255, 255, 255, 0)     /* 3. Termina transparente na direita */
+  );
+
+  /* Esta propriedade é necessária para que o border-image funcione */
+  border-image-slice: 1;
+}
+
+
+.navbar .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.9rem; /* Talvez precise diminuir um pouco o tamanho */
+  letter-spacing: 0.5px; /* Adicionar espaço entre as letras melhora a leitura */
+}
+
+
+/* Estilo para o link da navbar que está ativo */
+.navbar .nav-link.active {
+  color: #fff; /* Mesma cor do hover, para destaque */
+}
+
+/* Faz o underline animado aparecer no link ativo */
+.navbar .nav-link.active::after {
+  width: 100%;
+}
