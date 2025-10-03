@@ -1,4 +1,23 @@
 [
+    {
+    "titulo": "Instrumentos Avaliativos (WIP)",
+    "descricao": "Um sistema para gerir notas dos alunos de medicina da Faesa mostrando o desempenho dos alunos durante as aulas",
+    "imagem": "https://placehold.co/1862x946?text=WIP",
+    "badges": [
+      "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
+      "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+      "https://img.shields.io/badge/sql%20server-%23CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"
+    ]
+  },
+  {
+    "titulo": "Sistema de Agendamentos Psicologia",
+    "descricao": "Um sistema para gerir agendamentos, visando facilitar o controle de horários para clinica de Psicologia da Faesa",
+    "imagem": "./assets/agendamento_psicologia.png",
+    "badges": [
+      "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
+      "https://img.shields.io/badge/sql%20server-%23CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"
+    ]
+  },
   {
     "titulo": "Portfólio Pessoal",
     "descricao": "Este próprio site! Criado para ser meu cartão de visitas digital, mostrando minhas habilidades e projetos.",
