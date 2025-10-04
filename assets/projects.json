@@ -32,6 +32,19 @@
     }
   },
   {
+    "titulo": "Links",
+    "descricao": "Um projeto ambicioso! Com objetivo de ser o local onde redireciono para todos os meios de contatos possíveis, com diferencial de ser ter os links configuráveis através de um JSON, de forma simples e rápida",
+    "imagem": "./assets/links.png",
+    "badges": [
+      "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+    ],
+    "links": {
+      "github": "https://github.com/vinicgobbi/links",
+	    "website": "https://vinicgobbi.github.io/links"
+    }
+  },
+  {
     "titulo": "Vini Bot",
     "descricao": "Um bot Feito em Python para por em praticas os estudos do 1º semestre do curso de Ciência da Computação",
     "imagem": "./assets/vini-bot.png",
